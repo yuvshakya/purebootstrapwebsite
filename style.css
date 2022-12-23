@@ -1,0 +1,48 @@
+body{
+    font-family:'Robota', sans-serif;
+    background-color:rgb(255, 255, 255);
+}
+/* navbar */
+.sidebar{
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.9)),url(javascript.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    box-shadow: 5px 7px 25px #999;
+    margin-bottom: 500px;
+}
+
+.bottom-border{
+    border-bottom: 1px  groove rgb(118, 25, 25);
+}
+
+.sidder-link{
+    transition:all .4s;
+}
+/* end of navbar */
+.sidebar-link:hover{
+    background-color:#444;
+    border-radius:5px;
+}
+
+
+.current{
+    background-color: #f44336;
+    border-radius: 7px;
+    box-shodow: 2px 5px 10px #444;
+    transition: all .3s;
+}
+
+
+.current:hover{
+    background-color: #f44336;
+    border-radius: 7px;
+    box-shadow: 2px 5px 20px #111;
+    transform:translateY(-1px)
+}
+
+
+
+
+
